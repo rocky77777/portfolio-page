@@ -22,7 +22,19 @@ header .name {
 	position: absolute;
 	right: 10px;
 	top: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-color: 481069;
 }
+
+a.langbtn:hover {
+	color: green;
+}
+
+a.langbtn:active {
+	color: red;
+}
+
 
 nav {
 	position: absolute;
@@ -40,7 +52,19 @@ nav {
 	background-color: white;
 	border-radius: 3em;
 	color: black;
+	border-style: outset;
+	border-color: #481069;
+	border-width: thin;
 }
+
+a.nav:hover {
+	color: green;
+}
+
+a.nav:active {
+	color: red;
+}
+
 
 .name {
 	color: white;
@@ -99,9 +123,15 @@ footer {
 	color: #481069;
 	text-align: center;	
 	padding-bottom: 20px;
-
 }
 
+a.ftnav:hover {
+	color: green;
+}
+
+a.ftnav:active {
+	color: red;
+}
 
 @media only screen and (max-width: 750px) {
 	.projects .indv {
@@ -121,4 +151,29 @@ footer {
 	.header {
 		height: 17.5em;
 	}
+}
+
+.plist {
+	margin: auto;
+	max-width: 24em;
+}
+
+@media only screen and (max-width: 24em) {
+	.plist img {
+		width: 150px;
+		height: 150px;
+	}
+	.plist {
+		max-width: 14em;
+	}
+}
+
+.continf h1 {
+	color: purple;
+	text-align: center;
+}
+
+.continf {
+	background: linear-gradient(#c6f5a9, #dcf5ce);
+	border-radius: 5em;
 }
