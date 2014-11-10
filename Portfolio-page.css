@@ -1,0 +1,124 @@
+header {
+	background: linear-gradient(#316910, #c6f5a9);
+	margin: auto;
+	position: relative;
+	background-size: cover;
+	height: 15rem;
+	border-radius: 5px;
+}
+
+header .name {
+	color: #481069;
+}
+.langbtn {
+	background-color: white;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+nav {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	text-align: right;
+}
+
+.nav {
+	text-decoration: none;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	border-radius: 3em;
+	color: black;
+}
+
+.name {
+	color: white;
+	text-align: center;
+	padding-top: .7em;
+	font-size: 4.5rem;
+	letter-spacing: .3rem;
+	font-family: Serif;
+	font-weight: 100;
+}
+
+.aboutme {
+	max-width: 30em;
+	margin: auto;
+	font-family: Helvetica;
+	word-spacing: .25em;
+	letter-spacing: .03em;
+	margin-top: 5em;
+}
+
+.projects .content {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+}
+
+.projects .indv {
+    display: flex;
+}
+
+.projects .indv > li {
+    width: 30%;
+}
+
+ul {
+	list-style: none;
+}
+
+footer {
+	background-color: #dcf5ce;
+	border-radius: 1em;
+}
+
+.links .list {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+.links h5, a {
+	font-size: 1.5em;
+	color: #481069;
+	text-align: center;	
+	padding-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 750px) {
+	.projects .indv {
+		display: block;
+	}
+	.projects .indv {
+		max-width: 220px;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.nav {
+		font-size: 1em;
+		display: block;
+	}
+	.header {
+		height: 17.5em;
+	}
+}
